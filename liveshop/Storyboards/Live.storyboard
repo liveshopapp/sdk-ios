@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Live View Controller-->
+        <scene sceneID="3en-fY-co5">
+            <objects>
+                <viewController storyboardIdentifier="live" id="y7i-RO-lCB" customClass="LiveViewController" customModule="liveshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cKC-7o-PkH"/>
+                        <viewControllerLayoutGuide type="bottom" id="kdD-yq-nuo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ibU-jo-GQ8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXg-hz-J6c">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHi-hh-Rln" customClass="DesignableButton" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="E4g-Vi-new"/>
+                                    <constraint firstAttribute="height" constant="40" id="Pfp-wc-pHp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="close.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="dismiss:" destination="y7i-RO-lCB" eventType="touchUpInside" id="96z-Ko-Oo9"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZYj-zT-mwR" customClass="WaveEmitterView" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="300" y="122" width="80" height="379"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="379" id="Lh8-KD-Uw9"/>
+                                    <constraint firstAttribute="width" constant="80" id="qZq-3x-blT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMt-es-135" customClass="WaveEmitterView" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="300" y="170" width="80" height="379"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="AFb-sC-e9L"/>
+                                    <constraint firstAttribute="height" constant="379" id="rdh-2p-SQH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6I8-qM-6Nn" customClass="WaveEmitterView" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="305" y="218" width="80" height="379"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="6p3-Jx-Za5"/>
+                                    <constraint firstAttribute="height" constant="379" id="J2t-Ls-R6h"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcI-Ge-Tmb" customClass="DesignableButton" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="325" y="557" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5aU-jJ-De4"/>
+                                    <constraint firstAttribute="width" constant="40" id="WzY-Ry-kZO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="emoji-money.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="moneyButtonPressed:" destination="y7i-RO-lCB" eventType="touchUpInside" id="f7d-s4-DMF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGh-YU-KAX" customClass="DesignableButton" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="325" y="612" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="503-Fh-38G"/>
+                                    <constraint firstAttribute="height" constant="40" id="PAM-IS-sf3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="more.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Y0Z-jB-Njt">
+                                <rect key="frame" x="10" y="289" width="160" height="300"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="JaD-t8-o4M"/>
+                                    <constraint firstAttribute="width" constant="160" id="RM0-Mi-BMy"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="70" id="7ui-08-E9I" customClass="CommentCell" customModule="liveshop" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="160" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7ui-08-E9I" id="tMp-D3-JxD">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gAb-qU-HNB">
+                                                    <rect key="frame" x="0.0" y="5" width="45" height="60"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReT-3P-LNe">
+                                                            <rect key="frame" x="6" y="6" width="33" height="48"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="ReT-3P-LNe" firstAttribute="top" secondItem="gAb-qU-HNB" secondAttribute="top" constant="6" id="4wZ-d0-mq0"/>
+                                                        <constraint firstItem="ReT-3P-LNe" firstAttribute="leading" secondItem="gAb-qU-HNB" secondAttribute="leading" constant="6" id="5zo-58-qYl"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ReT-3P-LNe" secondAttribute="bottom" constant="6" id="Kyx-Pd-Pwb"/>
+                                                        <constraint firstAttribute="trailing" secondItem="ReT-3P-LNe" secondAttribute="trailing" constant="6" id="paJ-cP-C6M"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gAb-qU-HNB" secondAttribute="trailing" id="V7l-2h-VbM"/>
+                                                <constraint firstAttribute="bottom" secondItem="gAb-qU-HNB" secondAttribute="bottom" constant="5" id="XBg-Uh-SkS"/>
+                                                <constraint firstItem="gAb-qU-HNB" firstAttribute="leading" secondItem="tMp-D3-JxD" secondAttribute="leading" id="ePF-T6-bcS"/>
+                                                <constraint firstItem="gAb-qU-HNB" firstAttribute="top" secondItem="tMp-D3-JxD" secondAttribute="top" constant="5" id="yCx-Ps-eTT"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="commentContainer" destination="gAb-qU-HNB" id="JVG-a9-ppK"/>
+                                            <outlet property="titleLabel" destination="ReT-3P-LNe" id="dc6-6g-rmF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="y7i-RO-lCB" id="YuW-wq-NEZ"/>
+                                    <outlet property="delegate" destination="y7i-RO-lCB" id="dgK-Un-ilb"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k27-0R-eTB" customClass="GiftDisplayArea" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="15" y="159" width="224" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="jFb-aU-jRI"/>
+                                    <constraint firstAttribute="width" constant="224" id="yNm-9t-NxV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6H-xJ-XWZ">
+                                <rect key="frame" x="0.0" y="597" width="325" height="70"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Chat here..." textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="zCn-hG-dXD" customClass="TextField" customModule="liveshop" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="15" width="305" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="insetX">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="_placeholderLabel.textColor">
+                                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="delegate" destination="y7i-RO-lCB" id="SLp-JW-vmf"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zCn-hG-dXD" secondAttribute="trailing" constant="10" id="3Cf-eE-WpQ"/>
+                                    <constraint firstItem="zCn-hG-dXD" firstAttribute="top" secondItem="p6H-xJ-XWZ" secondAttribute="top" constant="15" id="U3d-hs-66G"/>
+                                    <constraint firstItem="zCn-hG-dXD" firstAttribute="leading" secondItem="p6H-xJ-XWZ" secondAttribute="leading" constant="10" id="aAC-t6-I0q"/>
+                                    <constraint firstAttribute="bottom" secondItem="zCn-hG-dXD" secondAttribute="bottom" constant="15" id="czY-xk-Buf"/>
+                                    <constraint firstAttribute="height" constant="70" id="l7N-Iz-gNP"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbE-wn-v5o" customClass="DesignableButton" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="325" y="509" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3Vi-Xx-Rwc"/>
+                                    <constraint firstAttribute="width" constant="40" id="9VB-Zf-quD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="money-flying.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="moneyFlyingButtonPressed:" destination="y7i-RO-lCB" eventType="touchUpInside" id="FHn-BX-yKZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tfG-Oi-iJA" customClass="DesignableButton" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="325" y="461" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="bbS-I2-H76"/>
+                                    <constraint firstAttribute="height" constant="40" id="uxu-qp-Ijf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="face-heart.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="faceHeartButtonPressed:" destination="y7i-RO-lCB" eventType="touchUpInside" id="qha-dx-0UL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zv-AQ-ped" customClass="DesignableButton" customModule="liveshop" customModuleProvider="target">
+                                <rect key="frame" x="325" y="413" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="nGS-Ki-07C"/>
+                                    <constraint firstAttribute="height" constant="40" id="q58-DW-3md"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="shopping.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clickShop:" destination="y7i-RO-lCB" eventType="touchUpInside" id="GwU-bX-7OI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3294117647" green="0.59607843140000005" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yb0-eP-2j7" firstAttribute="bottom" secondItem="vXg-hz-J6c" secondAttribute="bottom" id="5uf-lB-1Ia"/>
+                            <constraint firstItem="Yb0-eP-2j7" firstAttribute="trailing" secondItem="4zv-AQ-ped" secondAttribute="trailing" constant="10" id="8Ix-ai-3oK"/>
+                            <constraint firstItem="vXg-hz-J6c" firstAttribute="trailing" secondItem="Yb0-eP-2j7" secondAttribute="trailing" id="90y-OE-JNV"/>
+                            <constraint firstItem="tcI-Ge-Tmb" firstAttribute="centerX" secondItem="mGh-YU-KAX" secondAttribute="centerX" id="AbJ-Xs-bdx"/>
+                            <constraint firstItem="Yb0-eP-2j7" firstAttribute="trailing" secondItem="MbE-wn-v5o" secondAttribute="trailing" constant="10" id="BLw-Fw-G9w"/>
+                            <constraint firstItem="tcI-Ge-Tmb" firstAttribute="top" secondItem="eMt-es-135" secondAttribute="bottom" constant="8" id="BWK-KM-EZv"/>
+                            <constraint firstItem="MbE-wn-v5o" firstAttribute="top" secondItem="ZYj-zT-mwR" secondAttribute="bottom" constant="8" id="Cyl-ox-ljL"/>
+                            <constraint firstItem="k27-0R-eTB" firstAttribute="leading" secondItem="ibU-jo-GQ8" secondAttribute="leading" constant="15" id="D6S-rx-OnT"/>
+                            <constraint firstItem="vXg-hz-J6c" firstAttribute="top" secondItem="ibU-jo-GQ8" secondAttribute="top" id="HBq-AL-Omg"/>
+                            <constraint firstItem="Yb0-eP-2j7" firstAttribute="trailing" secondItem="tfG-Oi-iJA" secondAttribute="trailing" constant="10" id="HMt-o3-LjU"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="p6H-xJ-XWZ" secondAttribute="bottom" id="IYT-ap-sf3"/>
+                            <constraint firstItem="mGh-YU-KAX" firstAttribute="top" secondItem="tcI-Ge-Tmb" secondAttribute="bottom" constant="15" id="KcO-3i-v5h"/>
+                            <constraint firstItem="Y0Z-jB-Njt" firstAttribute="leading" secondItem="ibU-jo-GQ8" secondAttribute="leading" constant="10" id="O8T-cq-qVO"/>
+                            <constraint firstItem="Y0Z-jB-Njt" firstAttribute="top" secondItem="k27-0R-eTB" secondAttribute="bottom" constant="2" id="PA8-AG-E5G"/>
+                            <constraint firstItem="vXg-hz-J6c" firstAttribute="leading" secondItem="ibU-jo-GQ8" secondAttribute="leading" id="Q5a-5g-3sB"/>
+                            <constraint firstItem="ZYj-zT-mwR" firstAttribute="trailing" secondItem="Yb0-eP-2j7" secondAttribute="trailing" constant="5" id="RII-MR-m92"/>
+                            <constraint firstItem="eMt-es-135" firstAttribute="trailing" secondItem="Yb0-eP-2j7" secondAttribute="trailing" constant="5" id="Xls-Mj-FW4"/>
+                            <constraint firstItem="MbE-wn-v5o" firstAttribute="top" secondItem="tfG-Oi-iJA" secondAttribute="bottom" constant="8" id="Z7f-Tm-6UB"/>
+                            <constraint firstItem="mGh-YU-KAX" firstAttribute="top" secondItem="6I8-qM-6Nn" secondAttribute="bottom" constant="15" id="Zyj-P1-qWS"/>
+                            <constraint firstAttribute="trailing" secondItem="p6H-xJ-XWZ" secondAttribute="trailing" constant="50" id="aWB-gm-6Ub"/>
+                            <constraint firstItem="6I8-qM-6Nn" firstAttribute="centerX" secondItem="mGh-YU-KAX" secondAttribute="centerX" id="eGz-5C-oJf"/>
+                            <constraint firstItem="rHi-hh-Rln" firstAttribute="leading" secondItem="Yb0-eP-2j7" secondAttribute="leading" constant="10" id="eL8-EE-ryO"/>
+                            <constraint firstItem="p6H-xJ-XWZ" firstAttribute="leading" secondItem="ibU-jo-GQ8" secondAttribute="leading" id="iXq-eS-1I6"/>
+                            <constraint firstAttribute="trailing" secondItem="mGh-YU-KAX" secondAttribute="trailing" constant="10" id="jo3-pW-K4C"/>
+                            <constraint firstItem="tcI-Ge-Tmb" firstAttribute="top" secondItem="MbE-wn-v5o" secondAttribute="bottom" constant="8" id="mqg-fo-yxB"/>
+                            <constraint firstItem="Yb0-eP-2j7" firstAttribute="top" secondItem="rHi-hh-Rln" secondAttribute="top" constant="10" id="ozD-Si-8Ov"/>
+                            <constraint firstItem="Yb0-eP-2j7" firstAttribute="bottom" secondItem="Y0Z-jB-Njt" secondAttribute="bottom" constant="78" id="rfw-92-xXJ"/>
+                            <constraint firstItem="tfG-Oi-iJA" firstAttribute="top" secondItem="4zv-AQ-ped" secondAttribute="bottom" constant="8" id="ros-f0-dlo"/>
+                            <constraint firstItem="mGh-YU-KAX" firstAttribute="centerY" secondItem="zCn-hG-dXD" secondAttribute="centerY" id="tta-XR-r3g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yb0-eP-2j7"/>
+                    </view>
+                    <connections>
+                        <outlet property="emitterFaceheart" destination="ZYj-zT-mwR" id="ATa-Ew-nhP"/>
+                        <outlet property="emitterMoney" destination="6I8-qM-6Nn" id="p4f-a0-ju5"/>
+                        <outlet property="emitterMoneyFlying" destination="eMt-es-135" id="cJJ-in-rjC"/>
+                        <outlet property="giftArea" destination="k27-0R-eTB" id="kdo-Gn-Czm"/>
+                        <outlet property="inputContainer" destination="p6H-xJ-XWZ" id="NNz-xP-CDf"/>
+                        <outlet property="liveView" destination="vXg-hz-J6c" id="adl-zE-jRC"/>
+                        <outlet property="shopButton" destination="4zv-AQ-ped" id="Sgq-K3-EeG"/>
+                        <outlet property="tableView" destination="Y0Z-jB-Njt" id="Piv-63-2ep"/>
+                        <outlet property="textField" destination="zCn-hG-dXD" id="3fe-3F-v4V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nou-xZ-YI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.8" y="357.57121439280365"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="close.png" width="30" height="30"/>
+        <image name="emoji-money.png" width="64" height="64"/>
+        <image name="face-heart.png" width="64" height="64"/>
+        <image name="money-flying.png" width="64" height="64"/>
+        <image name="more.png" width="44" height="44"/>
+        <image name="shopping.png" width="64" height="64"/>
+    </resources>
+</document>

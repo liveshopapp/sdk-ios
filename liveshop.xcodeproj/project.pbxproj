@@ -7,9 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160259ED21371BD00029C838 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160259EB21371BD00029C838 /* CommentCell.swift */; };
+		164EB7A92139AEA100C118F3 /* emoji-money.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A42139AEA100C118F3 /* emoji-money.png */; };
+		164EB7AA2139AEA100C118F3 /* face-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A52139AEA100C118F3 /* face-heart.png */; };
+		164EB7AB2139AEA100C118F3 /* money-flying.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A62139AEA100C118F3 /* money-flying.png */; };
+		164EB7AC2139AEA100C118F3 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A72139AEA100C118F3 /* more.png */; };
+		164EB7AD2139AEA100C118F3 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A82139AEA100C118F3 /* shopping.png */; };
+		164EB7B12139AF4B00C118F3 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7AF2139AF4B00C118F3 /* TextField.swift */; };
+		164EB7B22139AF4B00C118F3 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7B02139AF4B00C118F3 /* DesignableButton.swift */; };
+		164EB7B72139AFE000C118F3 /* GiftDisplayArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7B42139AFE000C118F3 /* GiftDisplayArea.swift */; };
+		164EB7B82139AFE000C118F3 /* GiftDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7B52139AFE000C118F3 /* GiftDisplayView.xib */; };
+		164EB7B92139AFE000C118F3 /* GiftDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7B62139AFE000C118F3 /* GiftDisplayView.swift */; };
+		164EB7BB2139AFEA00C118F3 /* XibBasedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7BA2139AFEA00C118F3 /* XibBasedView.swift */; };
+		164EB7BD2139B09100C118F3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7BC2139B09100C118F3 /* UIView.swift */; };
+		164EB7C12139FA4400C118F3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164EB7C02139FA4400C118F3 /* IJKMediaFramework.framework */; };
+		16648A8C213622E60073C3D1 /* StoryboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16648A8B213622E60073C3D1 /* StoryboardHelper.swift */; };
+		16648A9121362B460073C3D1 /* WaveEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16648A9021362B460073C3D1 /* WaveEmitterView.swift */; };
+		168D5235213B0F0500C5D339 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D5234213B0F0500C5D339 /* Config.swift */; };
+		16A7D77B2138A94E0001396A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D77A2138A94E0001396A /* Comment.swift */; };
+		16A7D77D2138A9540001396A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D77C2138A9540001396A /* Room.swift */; };
+		16A7D77F2138AA120001396A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D77E2138AA120001396A /* User.swift */; };
+		16A7D7812138AA1A0001396A /* GiftEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7802138AA1A0001396A /* GiftEvent.swift */; };
+		16A7D7852138AAC90001396A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A7D7842138AAC90001396A /* close.png */; };
+		16A7D7942138AE4F0001396A /* TableView+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7932138AE4F0001396A /* TableView+App.swift */; };
+		16A7D7962138E2E50001396A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7952138E2E50001396A /* Profile.swift */; };
+		16A7D7982138E3920001396A /* RoomResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7972138E3920001396A /* RoomResponse.swift */; };
+		16BDB9EB212ED6CD00353F5D /* LiveShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB9EA212ED6CD00353F5D /* LiveShop.swift */; };
+		16BDB9F4212F1C6B00353F5D /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BDB9F2212F1C6B00353F5D /* LiveViewController.swift */; };
 		16D407AF212B73340039A0B7 /* liveshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D407A5212B73340039A0B7 /* liveshop.framework */; };
 		16D407B4212B73340039A0B7 /* liveshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D407B3212B73340039A0B7 /* liveshopTests.swift */; };
 		16D407B6212B73340039A0B7 /* liveshop.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D407A8212B73340039A0B7 /* liveshop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E6548C2135F968000687A0 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E6548B2135F968000687A0 /* Live.storyboard */; };
+		873FDE665FEBB5B3F32B2EC2 /* Pods_liveshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99BCC87699B27C85FAAFD99 /* Pods_liveshop.framework */; };
+		8F1CA2CF47AAFB17D77749E4 /* Pods_liveshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B495AA54CB67BC2867B81CD0 /* Pods_liveshopTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +53,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160259EB21371BD00029C838 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		164EB7A42139AEA100C118F3 /* emoji-money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emoji-money.png"; path = "../../../../../../../Downloads/zip imagens/emoji-money.png"; sourceTree = "<group>"; };
+		164EB7A52139AEA100C118F3 /* face-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "face-heart.png"; path = "../../../../../../../Downloads/zip imagens/face-heart.png"; sourceTree = "<group>"; };
+		164EB7A62139AEA100C118F3 /* money-flying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "money-flying.png"; path = "../../../../../../../Downloads/zip imagens/money-flying.png"; sourceTree = "<group>"; };
+		164EB7A72139AEA100C118F3 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = "../../../../../../../Downloads/zip imagens/more.png"; sourceTree = "<group>"; };
+		164EB7A82139AEA100C118F3 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shopping.png; path = "../../../../../../../Downloads/zip imagens/shopping.png"; sourceTree = "<group>"; };
+		164EB7AF2139AF4B00C118F3 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		164EB7B02139AF4B00C118F3 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		164EB7B42139AFE000C118F3 /* GiftDisplayArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDisplayArea.swift; sourceTree = "<group>"; };
+		164EB7B52139AFE000C118F3 /* GiftDisplayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftDisplayView.xib; sourceTree = "<group>"; };
+		164EB7B62139AFE000C118F3 /* GiftDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDisplayView.swift; sourceTree = "<group>"; };
+		164EB7BA2139AFEA00C118F3 /* XibBasedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibBasedView.swift; sourceTree = "<group>"; };
+		164EB7BC2139B09100C118F3 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		164EB7C02139FA4400C118F3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		16648A8B213622E60073C3D1 /* StoryboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHelper.swift; sourceTree = "<group>"; };
+		16648A9021362B460073C3D1 /* WaveEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveEmitterView.swift; sourceTree = "<group>"; };
+		168D5234213B0F0500C5D339 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		16A7D77A2138A94E0001396A /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		16A7D77C2138A9540001396A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		16A7D77E2138AA120001396A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		16A7D7802138AA1A0001396A /* GiftEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftEvent.swift; sourceTree = "<group>"; };
+		16A7D7842138AAC90001396A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = "../../../../../../../Downloads/Live-master/live-ios/Live/Assets.xcassets/icon-close.imageset/close.png"; sourceTree = "<group>"; };
+		16A7D7932138AE4F0001396A /* TableView+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+App.swift"; sourceTree = "<group>"; };
+		16A7D7952138E2E50001396A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		16A7D7972138E3920001396A /* RoomResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomResponse.swift; sourceTree = "<group>"; };
+		16BDB9EA212ED6CD00353F5D /* LiveShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveShop.swift; sourceTree = "<group>"; };
+		16BDB9F2212F1C6B00353F5D /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		16D407A5212B73340039A0B7 /* liveshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = liveshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D407A8212B73340039A0B7 /* liveshop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = liveshop.h; sourceTree = "<group>"; };
 		16D407A9212B73340039A0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D407AE212B73340039A0B7 /* liveshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liveshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D407B3212B73340039A0B7 /* liveshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveshopTests.swift; sourceTree = "<group>"; };
 		16D407B5212B73340039A0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E6548B2135F968000687A0 /* Live.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		A302D05D208F028F6FAC825C /* Pods-liveshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liveshopTests/Pods-liveshopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B495AA54CB67BC2867B81CD0 /* Pods_liveshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liveshopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC9220BE4DDFC683C78877C /* Pods-liveshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liveshopTests/Pods-liveshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		E730B950AB0407E5FB0F0DBD /* Pods-liveshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-liveshop/Pods-liveshop.release.xcconfig"; sourceTree = "<group>"; };
+		F1346CF69FE9F046C48C73CC /* Pods-liveshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liveshop/Pods-liveshop.debug.xcconfig"; sourceTree = "<group>"; };
+		F99BCC87699B27C85FAAFD99 /* Pods_liveshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liveshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873FDE665FEBB5B3F32B2EC2 /* Pods_liveshop.framework in Frameworks */,
+				164EB7C12139FA4400C118F3 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +110,118 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D407AF212B73340039A0B7 /* liveshop.framework in Frameworks */,
+				8F1CA2CF47AAFB17D77749E4 /* Pods_liveshopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		164659E0213B093C006BEEE3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				16648A8B213622E60073C3D1 /* StoryboardHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		164659E1213B0955006BEEE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				160259EB21371BD00029C838 /* CommentCell.swift */,
+				16648A9021362B460073C3D1 /* WaveEmitterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		164EB7AE2139AF4100C118F3 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				164EB7B32139AFD400C118F3 /* GiftDisplayView */,
+				164EB7BC2139B09100C118F3 /* UIView.swift */,
+				164EB7B02139AF4B00C118F3 /* DesignableButton.swift */,
+				164EB7AF2139AF4B00C118F3 /* TextField.swift */,
+				164EB7BA2139AFEA00C118F3 /* XibBasedView.swift */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		164EB7B32139AFD400C118F3 /* GiftDisplayView */ = {
+			isa = PBXGroup;
+			children = (
+				164EB7B42139AFE000C118F3 /* GiftDisplayArea.swift */,
+				164EB7B62139AFE000C118F3 /* GiftDisplayView.swift */,
+				164EB7B52139AFE000C118F3 /* GiftDisplayView.xib */,
+			);
+			path = GiftDisplayView;
+			sourceTree = "<group>";
+		};
+		16648A8D213624D40073C3D1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				16E6548B2135F968000687A0 /* Live.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		16648A9221362BE90073C3D1 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				164EB7A42139AEA100C118F3 /* emoji-money.png */,
+				164EB7A52139AEA100C118F3 /* face-heart.png */,
+				164EB7A62139AEA100C118F3 /* money-flying.png */,
+				164EB7A72139AEA100C118F3 /* more.png */,
+				164EB7A82139AEA100C118F3 /* shopping.png */,
+				16A7D7842138AAC90001396A /* close.png */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		168D5236213B234000C5D339 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				168D5234213B0F0500C5D339 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		16A7D7772138A92C0001396A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16BDB9F2212F1C6B00353F5D /* LiveViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16A7D7782138A9310001396A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16A7D77A2138A94E0001396A /* Comment.swift */,
+				16A7D77C2138A9540001396A /* Room.swift */,
+				16A7D77E2138AA120001396A /* User.swift */,
+				16A7D7802138AA1A0001396A /* GiftEvent.swift */,
+				16A7D7952138E2E50001396A /* Profile.swift */,
+				16A7D7972138E3920001396A /* RoomResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16A7D7792138A9340001396A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				16A7D7932138AE4F0001396A /* TableView+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		16D4079B212B73340039A0B7 = {
 			isa = PBXGroup;
 			children = (
 				16D407A7212B73340039A0B7 /* liveshop */,
 				16D407B2212B73340039A0B7 /* liveshopTests */,
 				16D407A6212B73340039A0B7 /* Products */,
+				FFFEAE502064078D96A5C59F /* Pods */,
+				62EA94E053CFE7A0DC5CCA09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +237,19 @@
 		16D407A7212B73340039A0B7 /* liveshop */ = {
 			isa = PBXGroup;
 			children = (
+				164EB7C02139FA4400C118F3 /* IJKMediaFramework.framework */,
+				168D5236213B234000C5D339 /* Config */,
+				164659E1213B0955006BEEE3 /* Views */,
+				164659E0213B093C006BEEE3 /* Helper */,
+				164EB7AE2139AF4100C118F3 /* Vendor */,
+				16A7D7792138A9340001396A /* Extensions */,
+				16A7D7782138A9310001396A /* Models */,
+				16A7D7772138A92C0001396A /* Controllers */,
+				16648A9221362BE90073C3D1 /* Media */,
+				16648A8D213624D40073C3D1 /* Storyboards */,
 				16D407A8212B73340039A0B7 /* liveshop.h */,
 				16D407A9212B73340039A0B7 /* Info.plist */,
+				16BDB9EA212ED6CD00353F5D /* LiveShop.swift */,
 			);
 			path = liveshop;
 			sourceTree = "<group>";
@@ -84,6 +261,26 @@
 				16D407B5212B73340039A0B7 /* Info.plist */,
 			);
 			path = liveshopTests;
+			sourceTree = "<group>";
+		};
+		62EA94E053CFE7A0DC5CCA09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F99BCC87699B27C85FAAFD99 /* Pods_liveshop.framework */,
+				B495AA54CB67BC2867B81CD0 /* Pods_liveshopTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFFEAE502064078D96A5C59F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1346CF69FE9F046C48C73CC /* Pods-liveshop.debug.xcconfig */,
+				E730B950AB0407E5FB0F0DBD /* Pods-liveshop.release.xcconfig */,
+				A302D05D208F028F6FAC825C /* Pods-liveshopTests.debug.xcconfig */,
+				BFC9220BE4DDFC683C78877C /* Pods-liveshopTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +301,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D407B9212B73340039A0B7 /* Build configuration list for PBXNativeTarget "liveshop" */;
 			buildPhases = (
+				D4134B01BE6D1B0718FDA9B4 /* [CP] Check Pods Manifest.lock */,
 				16D407A0212B73340039A0B7 /* Headers */,
 				16D407A1212B73340039A0B7 /* Sources */,
 				16D407A2212B73340039A0B7 /* Frameworks */,
@@ -122,9 +320,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D407BC212B73340039A0B7 /* Build configuration list for PBXNativeTarget "liveshopTests" */;
 			buildPhases = (
+				7846E4226FB549CA9BF18960 /* [CP] Check Pods Manifest.lock */,
 				16D407AA212B73340039A0B7 /* Sources */,
 				16D407AB212B73340039A0B7 /* Frameworks */,
 				16D407AC212B73340039A0B7 /* Resources */,
+				3309A5EED18B9695A195D2F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +348,7 @@
 				TargetAttributes = {
 					16D407A4212B73340039A0B7 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					16D407AD212B73340039A0B7 = {
 						CreatedOnToolsVersion = 10.0;
@@ -177,6 +378,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E6548C2135F968000687A0 /* Live.storyboard in Resources */,
+				164EB7AB2139AEA100C118F3 /* money-flying.png in Resources */,
+				164EB7B82139AFE000C118F3 /* GiftDisplayView.xib in Resources */,
+				164EB7A92139AEA100C118F3 /* emoji-money.png in Resources */,
+				16A7D7852138AAC90001396A /* close.png in Resources */,
+				164EB7AD2139AEA100C118F3 /* shopping.png in Resources */,
+				164EB7AC2139AEA100C118F3 /* more.png in Resources */,
+				164EB7AA2139AEA100C118F3 /* face-heart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +398,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3309A5EED18B9695A195D2F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-liveshopTests/Pods-liveshopTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/LFLiveKit/LFLiveKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Validator/Validator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFLiveKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Validator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liveshopTests/Pods-liveshopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7846E4226FB549CA9BF18960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liveshopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4134B01BE6D1B0718FDA9B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liveshop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16D407A1212B73340039A0B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A7D7982138E3920001396A /* RoomResponse.swift in Sources */,
+				16648A8C213622E60073C3D1 /* StoryboardHelper.swift in Sources */,
+				164EB7B12139AF4B00C118F3 /* TextField.swift in Sources */,
+				164EB7B92139AFE000C118F3 /* GiftDisplayView.swift in Sources */,
+				168D5235213B0F0500C5D339 /* Config.swift in Sources */,
+				16A7D7962138E2E50001396A /* Profile.swift in Sources */,
+				16A7D77B2138A94E0001396A /* Comment.swift in Sources */,
+				16BDB9EB212ED6CD00353F5D /* LiveShop.swift in Sources */,
+				16A7D7942138AE4F0001396A /* TableView+App.swift in Sources */,
+				164EB7B22139AF4B00C118F3 /* DesignableButton.swift in Sources */,
+				164EB7BB2139AFEA00C118F3 /* XibBasedView.swift in Sources */,
+				164EB7B72139AFE000C118F3 /* GiftDisplayArea.swift in Sources */,
+				16A7D7812138AA1A0001396A /* GiftEvent.swift in Sources */,
+				164EB7BD2139B09100C118F3 /* UIView.swift in Sources */,
+				16A7D77D2138A9540001396A /* Room.swift in Sources */,
+				160259ED21371BD00029C838 /* CommentCell.swift in Sources */,
+				16648A9121362B460073C3D1 /* WaveEmitterView.swift in Sources */,
+				16A7D77F2138AA120001396A /* User.swift in Sources */,
+				16BDB9F4212F1C6B00353F5D /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +637,9 @@
 		};
 		16D407BA212B73340039A0B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1346CF69FE9F046C48C73CC /* Pods-liveshop.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,6 +647,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/liveshop/Vendor",
+					"$(PROJECT_DIR)/liveshop",
+				);
 				INFOPLIST_FILE = liveshop/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,14 +662,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.liveshop;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		16D407BB212B73340039A0B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E730B950AB0407E5FB0F0DBD /* Pods-liveshop.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,6 +680,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/liveshop/Vendor",
+					"$(PROJECT_DIR)/liveshop",
+				);
 				INFOPLIST_FILE = liveshop/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -383,14 +695,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.liveshop;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		16D407BD212B73340039A0B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A302D05D208F028F6FAC825C /* Pods-liveshopTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K7TYATMXQ;
 				INFOPLIST_FILE = liveshopTests/Info.plist;
@@ -408,7 +722,9 @@
 		};
 		16D407BE212B73340039A0B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC9220BE4DDFC683C78877C /* Pods-liveshopTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K7TYATMXQ;
 				INFOPLIST_FILE = liveshopTests/Info.plist;
