@@ -104,7 +104,7 @@ class LiveViewController: UIViewController {
       self?.emitterFaceheart.emitImage(UIImage(named: "face-heart", in: Bundle(for: LiveViewController.self), compatibleWith: nil)!)
     }
     
-    socket?.on("emojimoney") {[weak self] data, ack in
+    socket?.on("upvote") {[weak self] data, ack in
       self?.emitterFaceheart.emitImage(UIImage(named: "emoji-money", in: Bundle(for: LiveViewController.self), compatibleWith: nil)!)
     }
     
@@ -157,7 +157,7 @@ class LiveViewController: UIViewController {
 
   @IBAction func moneyButtonPressed(_ sender: AnyObject) {
     guard let key = room?.key else { return }
-    socket?.emit("emojimoney", key)
+    socket?.emit("upvote", key)
   }
 }
 
