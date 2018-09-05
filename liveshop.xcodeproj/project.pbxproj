@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		160259ED21371BD00029C838 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160259EB21371BD00029C838 /* CommentCell.swift */; };
-		164EB7A92139AEA100C118F3 /* emoji-money.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A42139AEA100C118F3 /* emoji-money.png */; };
-		164EB7AA2139AEA100C118F3 /* face-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A52139AEA100C118F3 /* face-heart.png */; };
-		164EB7AB2139AEA100C118F3 /* money-flying.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A62139AEA100C118F3 /* money-flying.png */; };
-		164EB7AC2139AEA100C118F3 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A72139AEA100C118F3 /* more.png */; };
-		164EB7AD2139AEA100C118F3 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = 164EB7A82139AEA100C118F3 /* shopping.png */; };
 		164EB7B12139AF4B00C118F3 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7AF2139AF4B00C118F3 /* TextField.swift */; };
 		164EB7B22139AF4B00C118F3 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7B02139AF4B00C118F3 /* DesignableButton.swift */; };
 		164EB7B72139AFE000C118F3 /* GiftDisplayArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7B42139AFE000C118F3 /* GiftDisplayArea.swift */; };
@@ -28,7 +23,6 @@
 		16A7D77D2138A9540001396A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D77C2138A9540001396A /* Room.swift */; };
 		16A7D77F2138AA120001396A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D77E2138AA120001396A /* User.swift */; };
 		16A7D7812138AA1A0001396A /* GiftEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7802138AA1A0001396A /* GiftEvent.swift */; };
-		16A7D7852138AAC90001396A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A7D7842138AAC90001396A /* close.png */; };
 		16A7D7942138AE4F0001396A /* TableView+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7932138AE4F0001396A /* TableView+App.swift */; };
 		16A7D7962138E2E50001396A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7952138E2E50001396A /* Profile.swift */; };
 		16A7D7982138E3920001396A /* RoomResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7D7972138E3920001396A /* RoomResponse.swift */; };
@@ -40,6 +34,12 @@
 		16E6548C2135F968000687A0 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E6548B2135F968000687A0 /* Live.storyboard */; };
 		873FDE665FEBB5B3F32B2EC2 /* Pods_liveshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99BCC87699B27C85FAAFD99 /* Pods_liveshop.framework */; };
 		8F1CA2CF47AAFB17D77749E4 /* Pods_liveshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B495AA54CB67BC2867B81CD0 /* Pods_liveshopTests.framework */; };
+		BD6D3A6A213F78FD00ACB8E7 /* face-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D3A69213F78FD00ACB8E7 /* face-heart.png */; };
+		BD6D3A6C213F791000ACB8E7 /* emoji-money.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D3A6B213F791000ACB8E7 /* emoji-money.png */; };
+		BD6D3A6E213F792000ACB8E7 /* money-flying.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D3A6D213F792000ACB8E7 /* money-flying.png */; };
+		BD6D3A70213F793A00ACB8E7 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D3A6F213F793A00ACB8E7 /* more.png */; };
+		BD6D3A72213F794900ACB8E7 /* shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D3A71213F794900ACB8E7 /* shopping.png */; };
+		BD6D3A74213F795400ACB8E7 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6D3A73213F795400ACB8E7 /* close.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,6 @@
 
 /* Begin PBXFileReference section */
 		160259EB21371BD00029C838 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		164EB7A42139AEA100C118F3 /* emoji-money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emoji-money.png"; path = "../../../../../../../Downloads/zip imagens/emoji-money.png"; sourceTree = "<group>"; };
-		164EB7A52139AEA100C118F3 /* face-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "face-heart.png"; path = "../../../../../../../Downloads/zip imagens/face-heart.png"; sourceTree = "<group>"; };
-		164EB7A62139AEA100C118F3 /* money-flying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "money-flying.png"; path = "../../../../../../../Downloads/zip imagens/money-flying.png"; sourceTree = "<group>"; };
-		164EB7A72139AEA100C118F3 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = "../../../../../../../Downloads/zip imagens/more.png"; sourceTree = "<group>"; };
-		164EB7A82139AEA100C118F3 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shopping.png; path = "../../../../../../../Downloads/zip imagens/shopping.png"; sourceTree = "<group>"; };
 		164EB7AF2139AF4B00C118F3 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		164EB7B02139AF4B00C118F3 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 		164EB7B42139AFE000C118F3 /* GiftDisplayArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDisplayArea.swift; sourceTree = "<group>"; };
@@ -74,7 +69,6 @@
 		16A7D77C2138A9540001396A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		16A7D77E2138AA120001396A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		16A7D7802138AA1A0001396A /* GiftEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftEvent.swift; sourceTree = "<group>"; };
-		16A7D7842138AAC90001396A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = "../../../../../../../Downloads/Live-master/live-ios/Live/Assets.xcassets/icon-close.imageset/close.png"; sourceTree = "<group>"; };
 		16A7D7932138AE4F0001396A /* TableView+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+App.swift"; sourceTree = "<group>"; };
 		16A7D7952138E2E50001396A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		16A7D7972138E3920001396A /* RoomResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomResponse.swift; sourceTree = "<group>"; };
@@ -89,6 +83,12 @@
 		16E6548B2135F968000687A0 /* Live.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		A302D05D208F028F6FAC825C /* Pods-liveshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liveshopTests/Pods-liveshopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B495AA54CB67BC2867B81CD0 /* Pods_liveshopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liveshopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6D3A69213F78FD00ACB8E7 /* face-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "face-heart.png"; path = "../../../liveshop-ios/Live/Assets.xcassets/face.imageset/face-heart.png"; sourceTree = "<group>"; };
+		BD6D3A6B213F791000ACB8E7 /* emoji-money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "emoji-money.png"; path = "../../../liveshop-ios/Live/Assets.xcassets/heart.imageset/emoji-money.png"; sourceTree = "<group>"; };
+		BD6D3A6D213F792000ACB8E7 /* money-flying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "money-flying.png"; path = "../../../liveshop-ios/Live/Assets.xcassets/money.imageset/money-flying.png"; sourceTree = "<group>"; };
+		BD6D3A6F213F793A00ACB8E7 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = "../../../liveshop-ios/Live/Assets.xcassets/icon-more-options.imageset/more.png"; sourceTree = "<group>"; };
+		BD6D3A71213F794900ACB8E7 /* shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shopping.png; path = "../../../liveshop-ios/Live/Assets.xcassets/icon-shop.imageset/shopping.png"; sourceTree = "<group>"; };
+		BD6D3A73213F795400ACB8E7 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = "../../../liveshop-ios/Live/Assets.xcassets/icon-close.imageset/close.png"; sourceTree = "<group>"; };
 		BFC9220BE4DDFC683C78877C /* Pods-liveshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liveshopTests/Pods-liveshopTests.release.xcconfig"; sourceTree = "<group>"; };
 		E730B950AB0407E5FB0F0DBD /* Pods-liveshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshop.release.xcconfig"; path = "Pods/Target Support Files/Pods-liveshop/Pods-liveshop.release.xcconfig"; sourceTree = "<group>"; };
 		F1346CF69FE9F046C48C73CC /* Pods-liveshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liveshop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liveshop/Pods-liveshop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -167,12 +167,12 @@
 		16648A9221362BE90073C3D1 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				164EB7A42139AEA100C118F3 /* emoji-money.png */,
-				164EB7A52139AEA100C118F3 /* face-heart.png */,
-				164EB7A62139AEA100C118F3 /* money-flying.png */,
-				164EB7A72139AEA100C118F3 /* more.png */,
-				164EB7A82139AEA100C118F3 /* shopping.png */,
-				16A7D7842138AAC90001396A /* close.png */,
+				BD6D3A6B213F791000ACB8E7 /* emoji-money.png */,
+				BD6D3A69213F78FD00ACB8E7 /* face-heart.png */,
+				BD6D3A6F213F793A00ACB8E7 /* more.png */,
+				BD6D3A6D213F792000ACB8E7 /* money-flying.png */,
+				BD6D3A71213F794900ACB8E7 /* shopping.png */,
+				BD6D3A73213F795400ACB8E7 /* close.png */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -378,14 +378,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D3A74213F795400ACB8E7 /* close.png in Resources */,
+				BD6D3A6E213F792000ACB8E7 /* money-flying.png in Resources */,
+				BD6D3A6C213F791000ACB8E7 /* emoji-money.png in Resources */,
+				BD6D3A70213F793A00ACB8E7 /* more.png in Resources */,
 				16E6548C2135F968000687A0 /* Live.storyboard in Resources */,
-				164EB7AB2139AEA100C118F3 /* money-flying.png in Resources */,
 				164EB7B82139AFE000C118F3 /* GiftDisplayView.xib in Resources */,
-				164EB7A92139AEA100C118F3 /* emoji-money.png in Resources */,
-				16A7D7852138AAC90001396A /* close.png in Resources */,
-				164EB7AD2139AEA100C118F3 /* shopping.png in Resources */,
-				164EB7AC2139AEA100C118F3 /* more.png in Resources */,
-				164EB7AA2139AEA100C118F3 /* face-heart.png in Resources */,
+				BD6D3A72213F794900ACB8E7 /* shopping.png in Resources */,
+				BD6D3A6A213F78FD00ACB8E7 /* face-heart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
